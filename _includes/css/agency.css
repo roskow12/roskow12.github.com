@@ -653,9 +653,12 @@ aside.clients img {
     margin: 50px auto;
 }
 
+#map-canvas {
+    height: 400px;
+}
+
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -720,7 +723,7 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center;
+    text-align: left;
 }
 
 footer span.copyright {
