@@ -9,3 +9,7 @@
 #cats img {
 	max-height: 300px;
 }
+
+#cats .col-md-4, #cats .col-md-6 {
+	margin-top: 20px;
+}
