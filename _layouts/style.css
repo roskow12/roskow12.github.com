@@ -1,2 +1,11 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+
+#map-canvas {
+	height: 350px;
+	margin: 30px;
+}
+
+#cats img {
+	max-height: 300px;
+}
