@@ -1,9 +1,9 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 
-#map-canvas {
+.map {
 	height: 350px;
-	margin: 30px;
+	margin-left: 30px;
 }
 
 #cats img {
@@ -11,5 +11,9 @@
 }
 
 #cats .col-md-4, #cats .col-md-6 {
+	margin-top: 20px;
+}
+
+.image-row {
 	margin-top: 20px;
 }
