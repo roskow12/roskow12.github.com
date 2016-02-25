@@ -27,7 +27,8 @@
         var mapCenter = new google.maps.LatLng(37.8284464/*37.8237584*/, -122.2306082);
         var mapOptions = {
           center: mapCenter,
-          zoom: 14
+          zoom: 14,
+          scrollwheel: false
         };
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
         var marker = new google.maps.Marker({
@@ -48,7 +49,8 @@
         mapCenter = new google.maps.LatLng(37.815800, -122.183519);
         mapOptions = {
           center: mapCenter,
-          zoom: 14
+          zoom: 14,
+          scrollwheel: false
         };
         map = new google.maps.Map(document.getElementById('map-park'), mapOptions);
         marker = new google.maps.Marker({
