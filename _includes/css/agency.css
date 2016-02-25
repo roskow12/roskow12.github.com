@@ -266,8 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background:  -webkit-image-set( url(../img/header-bg-3.jpg)    1x,
-                                   url(../img/header-bg-3@2x.jpg) 2x);
+    background: url(../img/header-bg-3@2x.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
