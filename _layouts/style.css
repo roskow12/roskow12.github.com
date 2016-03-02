@@ -30,6 +30,17 @@
 	max-width: 100%;
 }
 
+.container div.pic {
+	text-align: center;
+}
+.container .pic img {
+	width: 100%;
+	max-height: 500px;
+	height: auto;
+	width: auto;
+	margin: auto;
+}
+
 @media (max-width: 768px) {
 
 	header .intro-text .intro-heading {
@@ -44,4 +55,14 @@
 		margin-bottom: 15px;
 	}
 
+}
+
+section#venue {
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e8e8e8;
+}
+section#venue h2 {
+	color: #fff;
 }
