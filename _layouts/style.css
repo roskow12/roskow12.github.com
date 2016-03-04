@@ -1,10 +1,19 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 
+a {
+	text-decoration: underline;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
 .map {
 	height: 350px;
 	/*margin-left: 30px;*/
 }
+
 
 #cats img {
 	max-height: 300px;
