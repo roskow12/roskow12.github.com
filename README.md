@@ -3,7 +3,7 @@ Agency Jekyll theme
 
 Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
 
-# How to use
+# How to use -
 
 ###Portfolio 
 
