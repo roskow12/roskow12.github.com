@@ -1,10 +1,10 @@
-url: http://www.alexandkealie.com/
+url: http://www.joeshell.com
 baseurl: ''
 
 # Site settings
-title: "#kealex2016"
-email: wedding@pretzlav.com
-description: "Alex Pretzlav and Kealie Goodwin are getting married in Piedmont, CA on June 18, 2016"
+title: "We're getting Murray'd"
+email: minuccianirocko@gmail.com
+description: "Michelle and Joe are getting married in Rockton, IL on Feb 02, 2019"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -13,9 +13,6 @@ color:
   secondary-dark: 333
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/apretz
 
 # Build settings
 markdown: kramdown
