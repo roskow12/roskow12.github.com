@@ -262,17 +262,29 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+#background_video {
+    position: fixed;
+    top: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1000;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background: url(../img/header-bg-3@2x.jpg);
+    /*background-attachment: scroll;
+    background: url(../img/snow_background.mp4);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 header .intro-text {
