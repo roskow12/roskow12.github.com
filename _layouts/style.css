@@ -1,6 +1,10 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 
+:root {
+	--bg-dark:#010516;
+}
+
 a {
 	text-decoration: underline;
 }
@@ -68,11 +72,25 @@ a {
 }
 
 section#venue {
-    background-color: #222;
+    background-color: var(--bg-dark);
+    /*background-color: #010516;*/
+    /*background-color: #222;*/
     background-position: center;
     background-repeat: no-repeat;
     color: #e8e8e8;
 }
 section#venue h2 {
 	color: #fff;
+}
+
+section#contact {
+    background-color: var(--bg-dark);
+}
+
+section#lodging {
+	color: var(--bg-dark);
+}
+
+section#registry {
+	color: var(--bg-dark);
 }
