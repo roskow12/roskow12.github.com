@@ -36,14 +36,16 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    /*color: #{{ site.color.primary }};*/
+    color: #8e0c0c;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: #8e0c0c;
+    /*color: #{{ site.color.secondary }};*/
 }
 
 h1,
@@ -176,7 +178,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+   /*f ont-family: "Helvetica Neue",Helvetica,Arial,cursive;*/
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     color: #fff;
     /*color: #{{ site.color.primary }};*/
 }
@@ -243,7 +247,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 20px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -279,6 +283,7 @@ header {
     text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
+    /*color: #{{ site.color.primary }};*/
     color: #fff;
     /*background-attachment: scroll;
     background: url(../img/snow_background.mp4);
@@ -305,7 +310,8 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -319,6 +325,7 @@ header .intro-text .intro-heading {
     }
 }
 
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -327,7 +334,9 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+        font-family: "Great Vibes", "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -335,8 +344,10 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        /*text-transform: uppercase;*/
+        font-family: "Great Vibes", "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+        /*font-family: "Alex Brush","Helvetica Neue",Helvetica,Arial,cursive;*/
+        /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
